@@ -4,8 +4,8 @@
  
         /*** You can change username & password ***/
         $user = array(
-                        "user" => "demo",
-                        "pass"=>"demo"          
+                        "user" => "admin",
+                        "pass"=>"admin"          
                 );
         $username = $_POST['username'];
         $pass = $_POST['password'];
@@ -39,7 +39,7 @@
         <div class="col-md-4 col-md-offset-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Please sign in</h3>
+                    <h3 class="panel-title">Masukkan username dan password anda!</h3>
                 </div>
                 <div class="panel-body">
                     <?php echo $error; ?>

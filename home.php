@@ -10,6 +10,9 @@
  
 ?>
 
+<br>
+<br>
+<p align="center">Selamat datang, <?php echo $_SESSION['simple_login']; ?></p>
 
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
