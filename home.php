@@ -1,3 +1,16 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['simple_login'])){
+        header("Location: home.php");
+        exit();
+    }
+
+     
+/*** you can  write your protected content here ***/
+ 
+?>
+
+
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
@@ -58,7 +71,7 @@
 	            <li><a class="smoothscroll" href="#services">Profil.</a></li>
 	            <li><a class="smoothscroll" href="#about">Lulusan.</a></li>
 	            <li><a class="smoothscroll" href="#contact">Kontak.</a></li>
-                 <li><a href="login.php">Masuk.</a></li>
+                 <li><a href="logout.php">Keluar.</a></li>
 	         </ul> <!-- end #nav -->
 
 	      </nav> <!-- end #nav-wrap -->
