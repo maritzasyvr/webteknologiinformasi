@@ -12,7 +12,7 @@
         if($username == $user['user'] && $pass == $user['pass']){
             session_start();
             $_SESSION['simple_login'] = $username;
-            header("Location: home.php");
+            header("Location: crud.php");
             exit();
         }else{
             $error = '<div class="alert alert-danger">Invalid Login</div>';
