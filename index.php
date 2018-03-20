@@ -1,924 +1,315 @@
-<!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-
-   <!--- basic page needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Teknologi Informasi - ITS</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
-
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="css/base.css">
-   <link rel="stylesheet" href="css/vendor.min.css">
-   <link rel="stylesheet" href="css/main.css">     
-
-   <!-- script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
-</head>
-
-<body>
-
-	<!-- header
-   ================================================== -->
-   <header id="main-header">
-
-   	<div class="row">
-
-	      <div class="logo">
-	         <a href="index.html">Kreo</a>
-	      </div>
-
-	      <nav id="nav-wrap">         
-	         
-	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
-	         	<span class="menu-icon">Menu</span>
-	         </a>
-         	<a class="mobile-btn" href="#" title="Hide navigation">
-         		<span class="menu-icon">Menu</span>
-         	</a>            
-
-	         <ul id="nav" class="nav">
-	            <li><a class="smoothscroll" href="#hero">Beranda.</a></li>
-		         <li class="current"><a class="smoothscroll" href="#portfolio">Fasilitas.</a></li>
-	            <li><a class="smoothscroll" href="#services">Profil.</a></li>
-	            <li><a class="smoothscroll" href="#about">Lulusan.</a></li>
-	            <li><a class="smoothscroll" href="#contact">Kontak.</a></li>
-                 <li><a href="login.php">Masuk.</a></li>
-	         </ul> <!-- end #nav -->
-
-	      </nav> <!-- end #nav-wrap -->
-
-	      <ul class="header-social">
-	        	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-	        	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-	        	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-	      </ul>      
-
-	   </div>
-
-   </header> <!-- end header -->
-
-
-   <!-- homepage hero
-   ================================================== -->
-   <section id="hero">	
-   	  
-		<div class="row hero-content">
-
-			<div class="twelve columns hero-container">
-
-			   <!-- hero-slider start-->
-			   <div id="hero-slider" class="flexslider">
-
-				   <ul class="slides">
-
-					   <!-- slide -->
-					   <li>
-						   <div class="flex-caption">
-								<h1 class="">Selamat Datang di <br> Teknologi Informasi - ITS 
-									
-								</h1>	
-									
-                               <h3 class=""><b>Program Studi Sarjana (S1).</b> <br> <b>Fakutlas Teknologi Informasi dan Komunikasi (FTIK)</b></h3>				   
-							</div>						
-					   </li>
-
-					   <!-- slide -->
-					   <li>						
-							<div class="flex-caption">
-								<h1 class="">Melahirkan generasi penerus bangsa terbaik
-									</h1>
-
-                                <h3 class=""><b>Teknologi Informasi - ITS</b> <br> <b>Fakutlas Teknologi Informasi dan Komunikasi (FTIK)</b></h3>			   
-							</div>					
-					   </li>
-
-					  			              
-
-				   </ul>
-
-			   </div> <!-- end hero-slider -->				   
-
-	      </div> <!-- end twelve columns-->
-
-		</div> <!-- end row -->	
-
-		<div id="more">
-		      <a class="smoothscroll" href="#services">Selengkapnya<i class="fa fa-angle-down"></i></a>
-		</div> 	
-
-   </section> <!-- end homepage hero -->
-
-
-   <!-- portfolio
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row section-head">
-
-      	<div class="twelve columns">
-
-      		<h1>Fasilitas kami<span>.</span></h1>
-
-	         <hr />               
-
-	         <p>Jurusan Teknologi Informasi memiliki berbagai fasilitas terbaik yang mendukung proses belajar mengajar mahaiswanya sehingga atmosfer belajar yang baik dapat tercipta. Fasilitas tersebut meliputi laboratorium, ruang baca, ruang kelas, dan lain sebagainya.<br> Berikut potret fasilitas-fasilitas yang tersedia : 
-	         </p>
-
-	      </div>
-
-      </div> <!-- end section-head -->
-
-      <div class="row items">
-
-         <!-- gambar bisa muncul -->
-          <!-- portfolio-wrapper -->
-         <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
-             
-               <div class="bgrid folio-item">
-               <div class="item-wrap">
-                 
-                     <img src="images/portfolio/ruangbaca.jpg" alt="Ruang Baca">                       
-                     <div class="overlay">
-                      <div class="portfolio-item-meta">
-          					   <h5>Ruang Baca</h5>
-                          
-          					</div>
-                     </div>
-                     <div class="link-icon"><i class="fa fa-plus"></i></div>
-            
-               </div>
-         	</div> <!-- item end -->
-
-
-           
-
-            <div class="bgrid folio-item">
-               <div class="item-wrap">
-                  <!-- <a href="#modal-02"> ini dihapus biar gamuncul yang kotak barunya itu -->
-                     <img src="images/portfolio/studiopemrograman.jpg" alt="Studio Pemrogaman">
-                     <div class="overlay">
-                      <div class="portfolio-item-meta">
-          					   <h5>Studio Pemrogaman</h5>
-                           
-          					</div>
-                     </div>
-                     <!--<div class="link-icon"><i class="fa fa-plus"></i></div>--hapus plusnya>
-                  <!--</a>ini dihapus biar gamuncul yang kotak barunya itu-->
-               </div>
-         	</div> <!-- item end -->
-
-            <div class="bgrid folio-item">
-               <div class="item-wrap">
-      
-                     <img src="images/portfolio/ruangkelas.jpg" alt="Ruang Kelas">                        
-                     <div class="overlay">
-                      <div class="portfolio-item-meta">
-          					   <h5>Ruang Kelas</h5>
-                           
-          					</div>
-                     </div>
-                
-                
-               </div>
-         	</div> <!-- item end -->
-
-            <div class="bgrid folio-item">
-               <div class="item-wrap">
-      
-                     <img src="images/portfolio/labpemrograman.jpg" alt="Laboratorium Pemrograman">
-                     <div class="overlay">
-                      <div class="portfolio-item-meta">
-          					   <h5>Laboratorium Pemrogaman </h5>
-                          
-          					</div>
-                     </div>
-               
-         
-               </div>
-         	</div> <!-- item end -->
-             
-             <div class="bgrid folio-item">
-               <div class="item-wrap">
-                  
-	                  <img src="images/portfolio/plasa.jpg" alt="Plasa">
-                     <div class="overlay"></div>                       
-                     <div class="portfolio-item-meta">
-     					      <h5>Plasa TI</h5>
-                   
-     					   </div> 
-                    
-                  
-               </div>
-        		</div> <!-- item end -->
-
-            <div class="bgrid folio-item">
-               <div class="item-wrap">
-
-                   <img src="images/portfolio/plasagarden.jpg" alt="Plasa Garden">
-                     <div class="overlay">
-                      <div class="portfolio-item-meta">
-          					   <h5>Plasa Garden</h5>
-                           
-          					</div>
-                     </div>
-               
-                
-               </div>
-         	</div> <!-- item end -->
-
-            <div class="bgrid folio-item">
-               <div class="item-wrap">
-              
-                     <img src="images/portfolio/kantin.jpg" alt="Kantin">
-                     <div class="overlay">
-                      <div class="portfolio-item-meta">
-          					   <h5>Kantin</h5>
-                 
-          					</div>
-                     </div>
-           
-             
-               </div>
-         	</div> <!-- item end -->
-
-          
-            <div class="bgrid folio-item">
-               <div class="item-wrap">
-    
-                     <img src="images/portfolio/gazebo.jpg" alt="Gazebo">
-                     <div class="overlay">
-                      	<div class="portfolio-item-meta">
-        					      <h5>Gazebo</h5>
-                        
-        					   </div>
-                     </div>
-      
-               </div>
-       		</div>  <!-- item end -->
-
-         </div> <!-- end portfolio-wrapper -->
-         
-         <!-- modal popup
-	   	========================================================= -->
-         <!--<div id="modal-01" class="popup-modal mfp-hide">
-
-		      <div class="media">
-	      		<img src="images/portfolio/modals/m-underwater.jpg" alt="Underwater" />
-	      	</div>
-
-		      <div class="description-box">
-			      <h4>Underwater</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories">Videography</span>
-		      </div>
-
-            <div class="link-box group">
-            	<a href="http://www.behance.net">Details</a>
-            	<a href="#" class="popup-modal-dismiss">Close</a>         
-            </div>
-
-	      </div><!-- modal-01 end -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <div class="media">
-	      		<img src="images/portfolio/modals/m-hotel.jpg" alt="Hotel Sign" />
-	      	</div>
-
-		      <div class="description-box">
-			      <h4>Hotel Sign</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories">Branding, Web Development</span>
-		      </div>
-
-            <div class="link-box">            	
-               <a href="http://www.behance.net">Details</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 end -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <div class="media">
-	      		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
-	      	</div>
-
-		      <div class="description-box">
-			      <h4>Beetle</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories">Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 end -->
-
-			<div id="modal-04" class="popup-modal mfp-hide">
-
-		      <div class="media">
-	      		<img src="images/portfolio/modals/m-banjo-player.jpg" alt="" />
-	      	</div>
-
-		      <div class="description-box">
-			      <h4>Banjo Player</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories">Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 end -->
-
-	      <div id="modal-05" class="popup-modal slider mfp-hide">	
-
-	      	<div class="media">
-	      		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
-	      	</div>      	
-
-		      <div class="description-box">
-			      <h4>Lighthouse</h4>		      
-
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-			      <div class="categories">Web Development</div>
-               
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>		      
-
-	      </div><!-- modal-05 end -->
-
-	      <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <div class="media">
-	      		<img src="images/portfolio/modals/m-girl.jpg" alt="" />
-	      	</div>	
-
-		      <div class="description-box">
-			      <h4>Girl Stuff</h4>			      
-
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-			      <div class="categories">Photography</div>
-               
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 end -->
-
-	      <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <div class="media">
-	      		<img src="images/portfolio/modals/m-coffee.jpg" alt="" />
-	      	</div>	
-
-		      <div class="description-box">
-			      <h4>Coffee Cup</h4>			      
-
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-			      <div class="categories">Branding</div>
-               
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 end -->
-
-	      <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <div class="media">
-	      		<img src="images/portfolio/modals/m-judah.jpg" alt="" />
-	      	</div>	
-
-		      <div class="description-box">
-			      <h4>Judah</h4>			      
-
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-			      <div class="categories">Webdesign</div>
-               
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-08 end -->
-
-      </div>  <!-- end row -->
-
-   </section> <!-- end portfolio -->
-
-
-   <!-- Services Section
-   ================================================== -->
-   <section id="services">
-
-   	<div class="row section-head">
-
-      	<div class="twelve columns">
-
-      		<h1>Mengapa Teknologi Informasi?<span>.</span></h1>
-
-	         <hr />      	         
-
-	         <ol>
-                 <li>Saat ini banyak terdapat hacker di dunia <i>cyber</i>, oleh karena itu diperlukan ahli keamanan dan aplikasi untuk mengurangi penipuan (fraud)</li>
-                 <li>Program Studio Teknologi Informasi dapat mencetak lulusan yang mempunyai keahlian di bidang layanan awam yang berkontribusi dalam meningkatkan efisiensi operasional organisasi</li>
-                 <li>Memiliki kemampuan untuk menghasilkan SDM yang ahli dalam bidang integrasi sistem sebagai solusi untuk mendukung penanganan aplikasi-aplikasi di instansi pemerintahan (E-Gov)</li>
-                 <li>Memfasilitasi otomatisasi proses bisnis di organisasi untuk menghadapi perkembangan teknologi informasi yang besar dalam rangka mendukung pengembangan Teknologi <i>Smart City</i></li>
-                 
-            </ol>
-
-	      </div>
-
-      </div> <!-- end section-head -->
-
-      <div class="row mobile-no-padding">      	
-
-	      <div class="service-list bgrid-half s-bgrid-half tab-bgrid-whole group">
-
-	      	<div class="bgrid">	               
-
-	            <h3>Visi.</h3>
-
-	            <div class="service-content">	                  
-                    <p>Menjadi Program Studi Teknologi Informasi yang unggul dalam bidang keamanan siber dan Teknologi berbasis Internet (<i>Internet of Things</i>) untuk mendukung pembangunan <i>Smart City</i> secara berkelanjutan hingga tahun 2002
-	         		</p> 
-	         	</div>  
-
-				</div> <!-- end bgrid -->
-
-				<div class="bgrid">	              
-
-	            <h3>Misi.</h3>                  
-
-	            <div class="service-content">	                  
-		            <p>
-                    <ul style="text-align: justify">
-                        <li> Menyelenggarakan pendidikan dan pengajaran Teknologi Informasi dengan menggunakan kurikulum yang adaptif berorientasi ke masa depan dan didukung SDM yang berkualitas serta fasilitas yang memadai.</li>
-                        <li> Melaksanakan pendidikan yang bermutu di bidang Keamanan Sistem dan <i>Internet of Things</i> untuk teknologi <i>Smart City</i> </li>
-                        <li>Menjalin kemitraan dengan instansi dalam maupun luar negeri</li>
-                        <li>Menyelenggarakan pengabdian kepada masyarakat berupa pelatihan, penyuluhan, penerapan hasil penelitian untuk pengembangan potensi dan pemberdayaan masyarakat daerah.  </li>
-                    
-                    
-                    </ul>    
-	         		</p> 
-	            </div>	              
-
-			   </div> <!-- end bgrid -->
-
-			   
-
-	      </div> <!-- end service-list -->	      
-
-      </div> <!-- end row -->  
-    
-     <div id="call-to-action">	       
-
-		   <div class="row section-ads">
-
-		      <div class="twelve columns">		         		
-
-			      <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">JALUR MASUK<span>.</span></a></h2>
-
-			      
-
-					<div class="action">
-			         <a href="http://www.snmptn.ac.id" >SNMPTN</a>
-	         	</div>
-                  <div class="action">
-			         <a href="http://www.sbmptn.ac.id" >SBMPTN</a>
-	         	</div>
-                  <div class="action">
-			         <a href="http://smits.its.ac.id" >PKM</a>
-	         	</div>
-
-			   </div>
-
-		   </div> <!-- end section-ads -->		         	         
-
-	   </div> <!-- end call-to-action -->	           
-
-   </section> <!-- end services -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-       
-      <div class="row team section-head">
-
-   		<div class="twelve columns">
-
-	         <h1>Profil Lulusan<span>.</span></h1>
-
-	         <hr />	         
-
-	      </div>
-
-      </div> <!-- end section-head -->
-
-      <div class="row">
-
-         <div id="team-wrapper" class="bgrid-sixth s-bgrid-third tab-bgrid-half mob-bgrid-whole group">
-
-            <div class="bgrid member">
-
-					<div class="member-pic">
-						<img src="images/team/locked.png" alt=""/>
-                 	<div class="mask"></div>       	
-               </div>
-               <div class="member-name">
-                  <h3>Spesialis Keamanan Siber</h3>
-                  <span>(Cyber Security Specialist)</span>
-               </div>
-            </div> <!-- end member -->
-
-            <div class="bgrid member">
-								
-					<div class="member-pic">
-                  <img src="images/team/smartphone.png" alt=""/>
-               	<div class="mask"></div>  
-               </div>
-               <div class="member-name">
-                  <h3>Spesialis Intenet Of Things</h3>
-                  <span>(IoT Specialist)</span>
-               </div>
-             </div>
-
-
-            <div class="bgrid member">
-								
-					<div class="member-pic">
-						<img src="images/team/keamananapp.png" alt=""/>
-                 	<div class="mask"></div>                          	
-               </div>
-               <div class="member-name">
-                  <h3>Analisis Keamanan Aplikasi</h3>
-                  <span>(Application Security Analyst)</span>
-               </div>
-
-
-     			</div> <!-- end member -->
-
-            <div class="bgrid member">
-								
-					<div class="member-pic">
-                 	<img src="images/team/cloud.png" alt=""/>
-                 	<div class="mask"></div>  
-               </div>
-               <div class="member-name">
-                  <h3>Pengembang Layanan Awan</h3>
-                  <span>(Cloud Service Developer)</span>
-               </div>
-
-            </div> <!-- end member -->
-                
-                
-            <div class="bgrid member">
-								
-					<div class="member-pic">
-						<img src="images/team/integration.png" alt=""/>
-                 	<div class="mask"></div>                          	
-               </div>
-               <div class="member-name">
-                  <h3>Spesialis Integrasi Sistem</h3>
-                  <span>(System Integration Specialist)</span>
-               </div>
-
-
-     			</div> <!-- end member -->
-
-         </div> <!-- end team-wrapper -->
-
-      </div> <!-- end row -->
-
-     
-
-   	<div class="row section-head">
-
-      	<div class="twelve columns">
-
-      		<h1>Jenis Peluang Kerja<span>.</span></h1>
-        
-	         <hr />  
-                <p>Berikut merupakan jenis-jenis peluang kerja yang akan ada dapatkan bila menjadi lulusan kami :</p>
-
-
-	      </div> <!-- end section-head -->
-
-      </div>
-
-      <div class="row mobile-no-padding">       	
-
-      	<div class="process bgrid-half tab-bgrid-whole group">
-
-      		<div class="bgrid">
-
-			      <h3>Komputasi Awan dan Komputasi Terdistribusi Cloud.</h3>
-
-		   	</div>
-
-      		<div class="bgrid">
-
-			     	<h3 >Arsitektur Web dan Pengembangan Framework.</h3>
-
-		      </div> 
-            
-      		<div class="bgrid">
-
-			      <h3 >Rancangan Antarmuka Pengguna.</h3>
-                
-
-		   	</div>
-            
-             <div class="bgrid">
-
-			     	<h3>Manajemen Penyimpanan Data.</h3>	
-
-		      </div>
-
-      		<div class="bgrid">
-
-			     	<h3 >Keamanan Informasi dan Jaringan.</h3>
-
-			     	
-
-		      </div> 
-
-
-		     
-
-		      <div class="bgrid">
-
-			      <h3>Integrasi Perangkat Lunak dan Middleware.</h3>
-
-
-		      </div>
-
-      	</div> <!-- end process -->      	
-
-     	</div> <!-- end row -->
-       
-
-
-    
-
-   </section> <!-- end about -->  
-
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="row content flex-container">
-    
-         <div id="testimonial-slider" class="flexslider">
-
-            <ul class="slides">
-               <li>
-                  <p>"Kegiatan siber nasional terutama pengamatan siber ini merupakan keharusan, keniscayaan.."
-                  </p>
-
-                  <div class="testimonial-author">
-                    	<img src="images/avatars/wiranto.jpg" alt="Author image">
-                    	<div class="author-info">
-                    		Wiranto
-                    		<span class="position">Menkopolhukam</span>
-                    	</div>
-                  </div>
-             	</li> <!-- end slide -->
-
-                              <li>
-                  <p>"Suatu hari nanti komputasi akan menjadi infrastruktur publik seperti listrik dan telepon."
-                  </p>
-
-                  <div class="testimonial-author">
-                    	<img src="images/avatars/john.jpg" alt="Author image">
-                    	<div class="author-info">
-                    		John McCarty
-                    		<span class="position">Pakar Komputasi MIT</span>
-                    	</div>
-                  </div>
-             	</li> <!-- end slide -->
-                <li>                       
-                    <p>"<i>Smart City</i> menciptakan perubahan sistem lebih efektif dan efisien dalam lembaga pemerintahan."
-                  </p>
-                  <div class="testimonial-author">
-                    	<img src="images/avatars/rudiantara.jpg" alt="Author image">
-                    	<div class="author-info">
-                    		Rudiantara
-                    		<span class="position">Menkominfo</span>
-                    	</div>
-                  </div>                        
-               </li> <!-- end slide -->
-                                <li>
-                  <p>"Jika kita tidak memecahkan masalah keamanan, maka orang-orang akan ragu."
-                  </p>
-
-                  <div class="testimonial-author">
-                    	<img src="images/avatars/bill.jpg" alt="Author image">
-                    	<div class="author-info">
-                    		Bill Gates
-                    		<span class="position">Microsoft</span>
-                    	</div>
-                  </div>
-             	</li> <!-- end slide -->
-                 <li>
-                  <p>"Sistem yang terintegrasi dalam suatu perusahaan dapat meningkatkan penghematan atau efisiensi"
-                  </p>
-
-                  <div class="testimonial-author">
-                    	<img src="images/avatars/darwin.jpg" alt="Author image">
-                    	<div class="author-info">
-                    		Darwin Widjaja
-                    		<span class="position">Praktisi Teknologi Informasi</span>
-                    	</div>
-                  </div>
-             	</li> <!-- end slide -->
-
-            </ul> <!-- end slides -->
-
-         </div> <!-- end flexslider -->         
-        
-      </div> <!-- end row -->
-
-   </section> <!-- end testimonials section -->  
-
-
-   <!-- contact
-   ================================================== -->
-   <section id="contact">
-
-   	<div class="row section-head">
-
-   		<div class="twelve columns">
-
-	         <h1>Hubungi Kami<span>.</span></h1>
-
-	         <hr />	        
-
-	      </div>
-
-      </div> <!-- end section-head -->
-
-      <div class="row">
-      	
-      	<div id="contact-form" class="six columns tab-whole left">
-
-          
-            
-            
-            
-            
-             <form action="add.php" method="post">
-	
-	<div>
-		<label for="name">Nama</label>
-		<input type="text" name="name">
-	</div>
-
-	<div>
-		<label for="email">Email</label>
-		<input type="text" name="email">
-	</div>
-
-	<div>
-		<label for="subject">Judul</label>
-		<input type="text" name="subject">
-	</div>
-
-	<div>
-		<label for="message">Pesan</label>
-		<textarea name="message" id="" cols="30" rows="10"></textarea>
-	</div>
-
-	<div><input type="submit" name="submit" value="KIRIM"></div>
-
-</form>
-            
-            
-            
-
-
-            <!-- contact-warning -->
-            <div id="message-warning"></div>
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="icon-ok"></i>Your message was sent, thank you!<br />
-      		</div>
-
-         </div>
-
-         <div class="six columns tab-whole right">
-
-
-	         <h3 class="address">Alamat</h3>
-
-	         <p>
-            Kampus Institut Teknologi<br>
-            Sepuluh Nopember Surabaya<br>
-            Jalan Raya ITS, Sukolilo, Surabaya 60111<br>
-            Indonesia
-            </p>
-
-            <h3>Telepon:</h3>
-			   <p>Phone: (031) 555 1212<br>
-			     	Fax: (000) 555 0101
-			   </p>
-               	
-         </div>     	
-
-      </div> <!-- end row -->     
-
-   </section>  <!-- end contact -->
-
-
-   <!-- Footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">  
-
-      	<div class="twelve columns content group">
-      		
-
-
-            <hr />
-
-            <div class="info">
-
-	            <p>Jurusan Teknologi Informasi<br>Fakultas Teknologi Informasi dan Komunikasi<br>ITS
-	            </p>	        
-
-	         </div>
-
-      	</div>           
-
-         <ul class="copyright">
-         	<li>&copy; Copyright 2018 Maritza Syavira.</li> 
-         </ul>
-
-         <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#hero">Kembali Ke Atas<i class="fa fa-angle-up"></i></a>
-         </div>
-
-      </div> <!-- end row -->
-
-   </footer> <!-- end footer -->
-
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-1.11.3.min.js"></script>
-   <script src="js/jquery-migrate-1.2.1.min.js"></script>
-   <script src="js/jquery.flexslider-min.js"></script>
-   <script src="js/jquery.waypoints.min.js"></script>
-   <script src="js/jquery.validate.min.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/jquery.placeholder.min.js"></script>
-   <script src="js/jquery.magnific-popup.min.js"></script>  
-   <script src="js/main.js"></script>
-
-</body>
-
-</html>
+<?php
+/**
+ * CodeIgniter
+ *
+ * An open source application development framework for PHP
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014 - 2018, British Columbia Institute of Technology
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	CodeIgniter
+ * @author	EllisLab Dev Team
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	https://codeigniter.com
+ * @since	Version 1.0.0
+ * @filesource
+ */
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ */
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
+switch (ENVIRONMENT)
+{
+	case 'development':
+		error_reporting(-1);
+		ini_set('display_errors', 1);
+	break;
+
+	case 'testing':
+	case 'production':
+		ini_set('display_errors', 0);
+		if (version_compare(PHP_VERSION, '5.3', '>='))
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
+		}
+		else
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
+		}
+	break;
+
+	default:
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
+		exit(1); // EXIT_ERROR
+}
+
+/*
+ *---------------------------------------------------------------
+ * SYSTEM DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" directory.
+ * Set the path if it is not in the same directory as this file.
+ */
+	$system_path = 'system';
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * directory than the default one you can set its name here. The directory
+ * can also be renamed or relocated anywhere on your server. If you do,
+ * use an absolute (full) server path.
+ * For more info please see the user guide:
+ *
+ * https://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ */
+	$application_folder = 'application';
+
+/*
+ *---------------------------------------------------------------
+ * VIEW DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want to move the view directory out of the application
+ * directory, set the path to it here. The directory can be renamed
+ * and relocated anywhere on your server. If blank, it will default
+ * to the standard location inside your application directory.
+ * If you do move this, use an absolute (full) server path.
+ *
+ * NO TRAILING SLASH!
+ */
+	$view_folder = '';
+
+
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here. For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT: If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller. Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ */
+	// The directory name, relative to the "controllers" directory.  Leave blank
+	// if your controller is not in a sub-directory within the "controllers" one
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
+
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
+
+
+
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
+
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
+
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
+
+	if (($_temp = realpath($system_path)) !== FALSE)
+	{
+		$system_path = $_temp.DIRECTORY_SEPARATOR;
+	}
+	else
+	{
+		// Ensure there's a trailing slash
+		$system_path = strtr(
+			rtrim($system_path, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		).DIRECTORY_SEPARATOR;
+	}
+
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+		exit(3); // EXIT_CONFIG
+	}
+
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+
+	// Path to the system directory
+	define('BASEPATH', $system_path);
+
+	// Path to the front controller (this file) directory
+	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
+
+	// Name of the "system" directory
+	define('SYSDIR', basename(BASEPATH));
+
+	// The path to the "application" directory
+	if (is_dir($application_folder))
+	{
+		if (($_temp = realpath($application_folder)) !== FALSE)
+		{
+			$application_folder = $_temp;
+		}
+		else
+		{
+			$application_folder = strtr(
+				rtrim($application_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(BASEPATH.$application_folder.DIRECTORY_SEPARATOR))
+	{
+		$application_folder = BASEPATH.strtr(
+			trim($application_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
+
+	// The path to the "views" directory
+	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.'views';
+	}
+	elseif (is_dir($view_folder))
+	{
+		if (($_temp = realpath($view_folder)) !== FALSE)
+		{
+			$view_folder = $_temp;
+		}
+		else
+		{
+			$view_folder = strtr(
+				rtrim($view_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(APPPATH.$view_folder.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.strtr(
+			trim($view_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
+
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
