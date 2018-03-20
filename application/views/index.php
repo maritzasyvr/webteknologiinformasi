@@ -799,7 +799,8 @@
       </div> <!-- end section-head -->
 
       <div class="row">
-        <?php echo form_open('insert_ctrl'); ?>
+        
+       
         <?php if (isset($message)) { ?>
 <CENTER><h3 style="color:green;">Data inserted successfully</h3></CENTER><br>
 <?php } ?>
