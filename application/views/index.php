@@ -58,7 +58,7 @@
 	            <li><a class="smoothscroll" href="#services">Profil.</a></li>
 	            <li><a class="smoothscroll" href="#about">Lulusan.</a></li>
 	            <li><a class="smoothscroll" href="#contact">Kontak.</a></li>
-                 <li><a href="login.php">Masuk.</a></li>
+                 <li><a href="login">Masuk.</a></li>
 	         </ul> <!-- end #nav -->
 
 	      </nav> <!-- end #nav-wrap -->
