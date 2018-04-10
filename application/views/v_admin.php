@@ -1,7 +1,7 @@
 
 <h1 align="center">Login berhasil !</h1> 
     <h2 align="center">Selamat Datang, <?php echo $this->session->userdata("nama"); ?></h2>
-<p align="center"><a href="<?php echo base_url('login/logout'); ?>">Logout</a></p>
+<p align="center"><a href="<?php echo base_url('login/logout'); ?>">Keluar</a><br><?php echo anchor('admin/export','Unduh dalam bentuk excel'); ?> <br><a href="<?php echo site_url('chart') ?>">Lihat statistika</a></p>
 
 <html>
 <head>
@@ -14,7 +14,7 @@
     <table width='80%' border=1>
 
     <tr>
-        <th>Name</th> <th>Subject</th> <th>Email</th> <th>Message</th> <th>Update</th>
+        <th>Name</th> <th>Email</th> <th>Subject</th> <th>Message</th> <th>Update</th>
     </tr>
     <?php
         foreach($crud_db as $c){

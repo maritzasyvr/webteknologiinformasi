@@ -812,7 +812,7 @@
             
             
             
-             <form action="add.php" method="post">
+             <form action="<?php echo base_url(). 'admin/tambah_aksi';?>" method="post">
 	
 	<div>
 		<label for="name">Nama</label>

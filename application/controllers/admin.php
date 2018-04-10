@@ -13,10 +13,20 @@ class Admin extends CI_Controller{
   
 
   function index(){
+
   
     $data['crud_db'] = $this->m_admin->tampil_data()->result();
     $this->load->view('v_admin',$data);
   }
+
+  function export(){
+  header("Content-type: application/vnd-ms-excel");
+  header("Content-Disposition: attachment; filename=Report.xls");
+    
+
+    $data['crud_db'] = $this->m_admin->tampil_data()->result();
+    $this->load->view('v_admin',$data);
+ }
 
   function edit($id){
     $where = array('id' => $id);
